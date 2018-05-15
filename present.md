@@ -128,7 +128,7 @@ Draw twelve more, some options:
 - Rotate
 - Duplicate
 
-# That's it! 
+## That's it! 
 
 Thank You!
 
@@ -174,7 +174,7 @@ are objects in Three.js
 
 It's so good I can't even
 
-# Scene
+## Scene
 Scenes allow you to set up what and where is to be rendered by three.js. 
 This is where you place objects, cameras and lights.
 
@@ -246,10 +246,9 @@ Simplest model, light that gets emitted from a single point in all directions
 
 # Material & Light 
 
-Each object responds to light based on its (internal) attributes and position in the scene (external)
+Each object responds to light based on its (internal) attributes and position in the scene (external), there several shading algorithms to compute the color in each point.
 
-Depends on the each color (as in, the pixel on the screen) is computed.
-## Shading algorithms (Interpolation): 
+## Shading algorithms
 - Basic - flat Color and Intensity, not responding to light. (not realistic)
 - Lambertian (L dot N)
 <!-- - Gouraud slightly old model  :b -->
