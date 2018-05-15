@@ -1,3 +1,5 @@
+[site](https://eranws.github.io/dodeca.js/)
+
 <!-- <head>
     <meta charset=utf-8>
     <title> Draw a Dodecahedron in 12 simple steps!</title>
@@ -61,9 +63,7 @@ Tiling a plane in 2D is possible with:
 - squares (4)
 - and hexagons (6)
 
-![Tiling][1]
-
-[1]: https://photos-3.dropbox.com/t/2/AADVaOMyzJnh-SLZCaJvDfz2mFpqAmIQjjto56WFRfrvJw/12/3685114/png/32x32/1/_/1/2/Screenshot%202018-05-15%2001.08.41.png/EKra4wIYxIsKIAIoAg/psyHSAC1LpsrvxCz1No8XFJYVNUjqW7PXXM8sc_EfG0?preserve_transparency=1&size=2048x1536&size_mode=3
+![Tiling](tiling.png)
 
 Tiling a sphere in 3D is possible with:
 
@@ -84,8 +84,7 @@ Tiling a sphere in 3D is possible with:
 > In three-dimensional space, a Platonic solid is a regular, convex polyhedron. It is constructed by congruent (identical in shape and size) regular (all angles equal and all sides equal) polygonal faces with the same number of faces meeting at each vertex. Five solids meet those criteria: Tetra-, Hexa-, Octa-, Dodeca-, Icosa-hedron 
 
 
-[2]: https://photos-4.dropbox.com/t/2/AACAkHR_Am3tST2lfT-Y_I4dQb_Q8J_HKCGEIs98lcu1fA/12/3685114/png/32x32/1/_/1/2/Screenshot%202018-05-15%2004.28.55.png/EKra4wIYxYsKIAIoAg/Wh89MTVoJkMCF13P3dCxsEyxEe0dYvzosOZ6CRwPxxU?preserve_transparency=1&size=2048x1536&size_mode=3
-
+[2]: platonic-solids.png
 
 
 # Let’s Draw!
@@ -128,14 +127,10 @@ Draw twelve more, some options:
 - Rotate
 - Duplicate
 
-## That's it! 
-
-Thank You!
-
 
 ## Introspection - what have we done?
 
-> on the remaining 7 slides we can dig in theory, and code a bit.
+<!-- > on the remaining 7 slides we can dig in theory, and code a bit. -->
 
 Drawing can be analyzed as an iterative process that involves:
 - creating an image from a model, in our case - an abstract mathematical shape
@@ -143,7 +138,7 @@ Drawing can be analyzed as an iterative process that involves:
 - looking at the drawing, estimating how ‘real’ it looks 
 - repeat
 
-these actions can be mapped to the pillars of 3D processing:
+These actions can be mapped to the pillars of 3D processing:
 - Computer Graphics - creating an image from a model
 - Image Processing - converting one image to another
 - Computer Vision - understanding an image, reconstructing model
@@ -208,7 +203,7 @@ This is where you place objects, cameras and lights.
 
 ![][ortho]
 
-[ortho]: http://glumpy.readthedocs.io/en/latest/_images/projection.png
+[ortho]: projection.png
 
 <!-- change to ortho camera -->
 
