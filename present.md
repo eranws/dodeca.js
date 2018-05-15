@@ -266,12 +266,12 @@ Each object responds to light based on its (internal) attributes and position in
 
 # Techniques
 
-Perspective - twice as far - twice as small
-Perspective - an object with radius 1 standing 4 meters away (far=4+1, near=4-1, ratio = 3/5)
-Perspective - Closer points are bigger `...oo88OOO@@@` and edges are thicker `-=#M`
+- Perspective - twice as far - twice as small
+- Perspective - an object with radius 1 standing 4 meters away (far=4+1, near=4-1, ratio = 3/5)
+- Perspective - Closer points are bigger `...oo88OOO@@@` and edges are thicker `-=#M`
 
-Shading - draw 32 shades from white to black
-Shading - crisscross patterns, along the face (like jeans)
-Shading - edges aren’t visible in realistic scene, create changes in shading towards edges. great with letters
+- Shading - draw 32 shades from white to black
+- Shading - crisscross patterns, along the face (like jeans)
+- Shading - edges aren’t visible in realistic scene, create changes in shading towards edges. great with letters
 
 <!-- # AR Demo -->
