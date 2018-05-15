@@ -1,5 +1,7 @@
 [site](https://eranws.github.io/dodeca.js/)
 
+[https://eranws.github.io/dodeca.js/present.md](https://eranws.github.io/dodeca.js/present.md)
+
 <!-- <head>
     <meta charset=utf-8>
     <title> Draw a Dodecahedron in 12 simple steps!</title>
