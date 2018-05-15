@@ -8,8 +8,6 @@
     <link href="https://raw.githubusercontent.com/mrcoles/markdown-css/master/markdown.css" rel="stylesheet">
 </head> -->
 
-[todo](todo.md)
-
 
 # Draw a Dodecahedron in 12 simple steps
 
@@ -144,7 +142,7 @@ These actions can be mapped to the pillars of 3D processing:
 - Computer Vision - understanding an image, reconstructing model
 
 <!-- In broad strokes (heh)  -->
-> Word > Image > Image > Word
+> Word => Image => Image => Word
 
 <!-- END THEORY -->
 
@@ -173,6 +171,7 @@ It's so good I can't even
 Scenes allow you to set up what and where is to be rendered by three.js. 
 This is where you place objects, cameras and lights.
 
+[index.html](index.html)
 <!-- show basic scene -->
 
 # Geometry
@@ -270,3 +269,5 @@ Each object responds to light based on its (internal) attributes and position in
 - Shading - edges aren’t visible in realistic scene, create changes in shading towards edges. great with letters
 
 <!-- # AR Demo -->
+
+[todo](todo.md)
